@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>HomeBook</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginClServlet</servlet-name>
+    <servlet-class>com.sp.controller.LoginClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UsersClServlet</servlet-name>
+    <servlet-class>com.sp.controller.UsersClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeBook</servlet-name>
+    <servlet-class>com.sp.controller.HomeBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ByBook</servlet-name>
+    <servlet-class>com.sp.controller.ByBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancleUser</servlet-name>
+    <servlet-class>com.sp.controller.CancleUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAdmin</servlet-name>
+    <servlet-class>com.sp.controller.LoginAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserAdmin</servlet-name>
+    <servlet-class>com.sp.controller.UserAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginClServlet</servlet-name>
+    <url-pattern>/LoginClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UsersClServlet</servlet-name>
+    <url-pattern>/UsersClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomeBook</servlet-name>
+    <url-pattern>/HomeBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ByBook</servlet-name>
+    <url-pattern>/ByBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancleUser</servlet-name>
+    <url-pattern>/CancleUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAdmin</servlet-name>
+    <url-pattern>/LoginAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAdmin</servlet-name>
+    <url-pattern>/UserAdmin</url-pattern>
+  </servlet-mapping>
+</web-app>
